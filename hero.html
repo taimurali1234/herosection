@@ -6,6 +6,34 @@
         
 
     <title>Document</title>
+
+    <style>
+        table tbody tr td{
+            text-align: center;
+        }
+        table.table-bordered tbody th{
+          color: #15143966;
+        }
+       
+         table.table-bordered thead tr {
+        border-top: none;
+    }
+    /* table.table-bordered tbody tr:last-child {
+        padding: 5px;
+    } */
+    table.table-bordered thead th:first-child{
+        border-left: none;
+    }
+
+    table.table-bordered thead th:last-child {
+        border-right: none;
+    }
+    table tbody th:not(:first-child):not(:last-child),
+    table tbody td:not(:first-child):not(:last-child) {
+        padding: 20px;
+    }
+       
+    </style>
     
    
 </head>
@@ -112,6 +140,191 @@
                 <img src="/images/Twitter3.png" alt="">
             </div>
             </div>
+        </div>
+        <!-- <div class="container p-5">
+            <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+              </div>
+              <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Well done!</h4>
+                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                <hr>
+                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+              </div>
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+              <button type="button" class="btn btn-primary  position-relative">
+                Inbox
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+
+              <button type="button" class="btn btn-primary position-relative mx-5">
+                Inbox
+                <span class="position-absolute top-0 start-100 translate-middle p-3 badge border border-light rounded-circle bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+        </div> -->
+<!-- pricing Tables or Deals -->
+        <div class="container p-5">
+            <div class="row">
+                <div class="col mb-5">
+
+                    <h2 class="text-center">Do more with Startup Framework</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="table table-bordered " >
+                        <thead class="text-center table-light" >
+
+                            <tr>
+                                <th class="p-5" scope="col"> </th>
+                                <th  class="py-5"scope="col"><h5 class="fw-normal">Basic Plan</h5><p class="fw-normal" >All the basic for starting a new business</p></th>
+                                <th  class="py-5"scope="col"><h5 class="fw-normal">Pro Plan</h5><p class="fw-normal">All the basic for starting a new business</p></th>
+                                <th  class="py-5"scope="col"><h5 class="fw-normal">Company Plan</h5><p class="fw-normal">All the basic for starting a new business</p></th>
+                            </tr>
+                        </thead>
+                        <tbody class="align-middle">
+                            <tr class="text-center">
+                              <th  class="text-end text-uppercase py-5" scope="row">Price</th>
+                              <td class="align-middle">
+                                <span class="h1 fw-bold position-relative">19</span>
+                                <span class="" style="position: relative; right: 65px; bottom: 25px;">$</span>
+
+                              </td>
+                              <td class="align-middle"> <span class="h1 fw-bold position-relative">49</span>
+                                <span class="" style="position: relative; right: 65px; bottom: 25px;">$</span>
+                              </td>
+                              <td class="align-middle">
+                                <span class="h1 fw-bold position-relative">99</span>
+                                <span class="" style="position: relative; right: 65px; bottom: 25px;">$</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th class="text-end text-uppercase" scope="row">Hosted Projects</th>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                            </tr>
+                            <tr>
+                              <th  class="text-end text-uppercase" scope="row">UnHosted Projects</th>
+                              <td >2</td>
+                              <td >10</td>
+                              <td>Unlimited</td>
+                            </tr>
+                            <tr>
+                              <th  class="text-end text-uppercase" scope="row">Billing</th>
+                              <td class="align-middle">
+                                <div class="rounded" style="width: 20px; height: 20px; display: inline-block; background-color: lightgray;">
+
+                                </div>
+                            </td>
+                            <!-- <td class="d-flex justify-content-center">
+                              <div class="rounded d-flex align-items-center justify-content-center" style="width: 20px; height: 20px;  background-color: #25DAC5;">
+                                <img src="/images/Check Icon.png" alt="">
+                              </div>
+                          </td> -->
+                          <td class="align-middle">
+                            <div class="rounded text-center position-relative " style="width: 20px; height: 20px;  background-color: #25DAC5; display: inline-block;">
+                            <img src="/images/Check Icon.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                            </div>
+                        </td>
+                            <td class="align-middle">
+                              <div class="rounded text-center position-relative " style="width: 20px; height: 20px;  background-color: #25DAC5; display: inline-block;">
+                              <img src="/images/Check Icon.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                              </div>
+                          </td>
+                          
+
+                            </tr>
+                            <tr>
+                              <th  class="text-end text-uppercase" scope="row">Support</th>
+                              <td >Forum</td>
+                              <td >Chat</td>
+                              <td>Phone Call</td>
+                            </tr>
+                            <tr>
+                              <th  class="text-end text-uppercase" scope="row">Custom Domen</th>
+                              <td class="align-middle">
+                                <div class="rounded" style="width: 20px; height: 20px; display: inline-block; background-color: lightgray;"></div>
+                            </td>                            
+                            <td class="align-middle">
+                              <div class="rounded" style="width: 20px; height: 20px; display: inline-block; background-color: lightgray;"></div>
+                          </td>                                <td class="align-middle">
+                                <div class="rounded text-center position-relative " style="width: 20px; height: 20px;  background-color: #25DAC5; display: inline-block;">
+                                <img src="/images/Check Icon.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                                </div>
+                            </td>                           
+                           </tr>
+                            <tr>
+                              <th   class="text-end text-uppercase" scope="row">Dashboard</th>
+                              <td class="align-middle">
+                                <div class="rounded" style="width: 20px; height: 20px; display: inline-block; background-color: lightgray;"></div>
+                            </td>                            
+                            <td class="align-middle">
+                              <div class="rounded" style="width: 20px; height: 20px; display: inline-block; background-color: lightgray;"></div>
+                          </td>                                <td class="align-middle">
+                                <div class="rounded text-center position-relative " style="width: 20px; height: 20px;  background-color: #25DAC5; display: inline-block;">
+                                <img src="/images/Check Icon.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                                </div>
+                            </td>
+                            </tr>
+                            <tr>
+                              <th  class="text-end text-uppercase align-middle" scope="row"></th>
+                              <td class="align-middle p-5" ><button class="btn bg-transparent rounded-pill border "> Get Started for Free</button></td>
+                              <td class="align-middle" ><button class="btn text-white rounded-pill border" style="background-color: #25DAC5;"> Get Started for Free</button></td>
+                              <td class="align-middle" ><button class="btn bg-transparent rounded-pill border"> Get Started for Free</button></td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+       
         </div>
         
     </div>
