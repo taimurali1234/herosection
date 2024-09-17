@@ -8,6 +8,9 @@
     <title>Document</title>
 
     <style>
+      *{
+        box-sizing: border-box;
+      }
         table tbody tr td{
             text-align: center;
         }
@@ -456,7 +459,24 @@
                 
                 <div class="d-flex align-items-center justify-content-evenly" style="width: 250px;">
                   
-                  <button class="hello mt-5 btn bg-transparent border rounded-pill"> Start Free Trial</button>
+                  <button type="button" class="hello mt-5 btn bg-transparent border rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal"> Start Free Trial</button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Do you realy want to start with this package?
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               
@@ -517,6 +537,65 @@
           </div>
 
         </div>
+
+      <!-- content section -->
+       <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col">
+            <h1 class="fw-bold fs-1 mb-5">Easy steps</h1>
+            <div class="content">
+              <div class="content1 d-flex gap-5 " style="height: 280px;">
+                <div>
+                <div class="d-flex align-items-center justify-content-center fs-4 " style="color: #15143966; width: 40px; height: 40px; background-color: lightgrey; border-radius: 50%; ">1</div>
+                <div class="mx-auto" style="border: 1px solid ; border-color: #EBEAED; height: 100%; width: 1px;"></div>
+              </div>
+                <div class="text" style="width: 700px;">
+                  <h3>How Startup Framework works?</h3>
+                  <p class="mt-4 lh-lg fw-bold" style="color: #15143966; font-size: 16px;">The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.</p>
+                </div>
+              </div>
+              <div class="content2 d-flex gap-5 " style="height: 550px;">
+                <div>
+                <div class="d-flex align-items-center justify-content-center fs-4 " style="color: #15143966; width: 40px; height: 40px; background-color: lightgrey; border-radius: 50%; ">2</div>
+                <div class="mx-auto" style="border: 1px solid ; border-color: #EBEAED; height: 100%; width: 1px;"></div>
+              </div>
+                <div class="text" style="width: 700px;">
+                  <div class="text1">
+
+                    <h3>Twenty five awesome samples</h3>
+                    <p class="mt-4 lh-lg fw-bold" style="color: #15143966; font-size: 16px;">The most important part of the Startup Framework is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks from UI Kit. By choosing one of the 25 configurations of the future startup, the process of creation is simple and easy.</p>
+                  </div>
+                  <div class="text2 d-flex align-items-center  gap-5" style="margin-top: 120px;">
+                    <div class="image position-relative" style="width: 250px;">
+                      <img src="/images//Video.png" alt="" width="100%" >
+                      <img src="/images/play.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                    </div>
+                      <div class="textwithimage d-flex flex-column justify-content-between" style="width: 305px; height: 166px;">
+                        <h5 class="text-uppercase m-0 px-2" style="letter-spacing:4px;">Fell our design</h5>
+                    <p class="mt-2 lh-lg fw-bold m-0" style="color: #15143966; font-size: 16px; display: flex; justify-self: end;">Startup Design Framework contains components which can easily be inte-grated into almost any design. </p>
+
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="content3 d-flex gap-5 " style="height: 280px;">
+                <div>
+                <div class="d-flex align-items-center justify-content-center fs-4 " style="color: #15143966; width: 40px; height: 40px; background-color: lightgrey; border-radius: 50%; ">3</div>
+                <!-- <div class="mx-auto" style="border: 1px solid ; border-color: #EBEAED; height: 100%; width: 1px;"></div> -->
+              </div>
+                <div class="text" style="width: 700px;">
+                  <h3>Variety of designs</h3>
+                  <p class="mt-4 lh-lg fw-bold" style="color: #15143966; font-size: 16px;">You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.</p>
+                  <button class="btn rounded-pill border px-5 py-3" style="color: white; background-color: #25DAC5;">Learn More</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+       </div>
         
     </div>
     
